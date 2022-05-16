@@ -79,17 +79,18 @@ body{
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
-    mix-blend-mode: normal;
+    border: 1px solid transparent;
     background: #458FF6;
     border-radius: 55px;
     padding: 15px 40px;
     box-shadow: none;
     text-decoration: none;
-    border: none;
-    transition: 0.3s all ease;
+    transition: 0.3s linear;
 }
 .header__button:hover{
-    box-shadow: 2px 2px 2px 1px #000;
+    background-color: #fff;
+    color: #458FF6;
+    border: 1px solid #458FF6;
 }
 
                       /*main*/

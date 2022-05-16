@@ -346,18 +346,26 @@ body{
     align-items: center;
     margin-bottom: 69px;
 }
+.article__img{
+    width: 320px;
+}
+.article__card{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
 .article__list{
     list-style: none;
     margin-top: 76px;
+    padding: 21px 10px;
 }
 .article__subtitle{
     font-size: 21px;
     line-height: 32px;
     color: #000000;
-    mix-blend-mode: normal;
-    width: 251px;
+    width: 266px;
     margin-left: 20px;
-    margin-top: 21px;
     margin-bottom: 12px;
 }
 .article__text{
@@ -365,9 +373,8 @@ body{
     font-size: 16px;
     line-height: 28px;
     color: #7D7987;
-    mix-blend-mode: normal;
-    width: 266px;
     margin-left: 20px;
+    width: 266px;
     margin-bottom: 25px;
 }
 .article__link{

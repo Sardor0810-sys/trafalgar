@@ -7,6 +7,9 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+button:hover{
+    transform: scale(0.9);
+}
 .container{
     max-width: 1217px;
     width: 100%;
@@ -24,6 +27,30 @@ body{
     list-style: none;
     display: flex;
     align-items: center;
+}
+.navbar__img{
+    animation-name: navbar__img;
+    animation-duration:4s ;
+}
+@keyframes navbar__img{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.navbar__logo{
+    animation-name: navbar__logo;
+    animation-duration: 4s;
+}
+@keyframes navbar__logo{
+    from{
+        transform: scale(0.2);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 .navbar__item{
     margin-left: 40px;
@@ -223,6 +250,7 @@ body{
     margin-bottom: 40px;
 }
 .section__button{
+    background-color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
     font-weight: 700;
@@ -232,7 +260,7 @@ body{
     padding: 15px 51px;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
-    transition: 1s all ease;
+    transition: 0.5s all ease;
 }
 .section__button:hover{
     color: #FFFFFF;
@@ -398,7 +426,7 @@ body{
     padding: 15px 51px;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
-    transition: 1s all ease;
+    transition: 0.5s all ease;
     background-color: #FFFFFF;
 }
 .article__button:hover{
